@@ -3,7 +3,10 @@ Goal: The goal is to download user etoro transactions that were purchased in USD
 
 Required steps for the converter
 1. Extact user transaction data from etoro
+   2. use etoro API to pull historic user data in USD - if it is possible
 2. Extract eestipank.ee currency date and match the currency for the same time frame
+   3. eestipank does not have a public API - need to figure out how to download information
+   from the website or find alternative source where historic currency rates match.
 3. Convert the etoro transactions from USD to EUR 
 4. Output the transactiosn in EUR corresponeding to etoro transactions
 
